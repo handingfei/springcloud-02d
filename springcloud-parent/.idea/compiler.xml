@@ -7,19 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="upms-biz-consul" />
-        <module name="upms-biz-eureka" />
         <module name="eureka-server" />
-        <module name="springcloud-parent" />
+        <module name="common" />
+        <module name="upms-biz-eureka" />
         <module name="upms-biz-nacos" />
+        <module name="upms-biz-eureka-client" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="springcloud-parent" options="-parameters" />
       <module name="upms-biz-consul" options="-parameters" />
       <module name="upms-biz-eureka" options="-parameters" />
+      <module name="upms-biz-eureka-client" options="-parameters" />
       <module name="upms-biz-nacos" options="-parameters" />
     </option>
   </component>

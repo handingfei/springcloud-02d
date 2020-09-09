@@ -29,7 +29,7 @@ public class TestConfig {
         gc.setBaseColumnList(true);// XML columList
 
         mpg.setGlobalConfig(gc);
-        System.out.println(mpg+"-------------------------------------------");
+
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         dsc.setDbType(DbType.MYSQL);
@@ -46,8 +46,6 @@ public class TestConfig {
         dsc.setUsername("root");
         dsc.setPassword("root");
         dsc.setUrl("jdbc:mysql://localhost:3306/kylin_hdf?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC");
-
-        System.out.println(dsc+"-------------------------------------------");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -58,16 +56,13 @@ public class TestConfig {
                 .setEntityLombokModel(true);//使用lombok
 
         mpg.setStrategy(strategy);
-        System.out.println(mpg+"-------------------------------------------");
+
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent("com.hdf.upms.biz");
-        System.out.println(pc+"-------------------------------------------");
         // pc.setModuleName("test");
         mpg.setPackageInfo(pc);
-        System.out.println(mpg+"-------------------------------------------11111111");
         // 执行生成
         mpg.execute();
-
     }
 }

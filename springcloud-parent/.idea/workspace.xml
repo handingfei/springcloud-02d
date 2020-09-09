@@ -8,6 +8,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -36,21 +50,24 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upms-biz-eureka/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdf.dto" />
       <recent name="com.hdf.upms.biz.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka\src\main\resources" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka\src\main\java\com\hdf\upms\biz" />
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\eureka-server\src\main\resources" />
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-nacos\src\main\java\com\hdf\upms\biz" />
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-nacos\src\test\java\com\hdf\upmsbiznacos" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-nacos\src\main\java\com\hdf\upmsbiznacos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,8 +82,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UpmsBizEurekaApplication (1)">
-    <configuration name="TestConfig (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.upms-biz-eureka2">
+    <configuration name="TestConfig (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qpx.upms.biz.TestConfig" />
       <module name="upms-biz-nacos" />
       <extension name="coverage">
@@ -79,7 +96,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConfig (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdf.upms.biz.TestConfig" />
+      <module name="upms-biz-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdf.upms.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdf.upms.biz.TestConfig" />
       <module name="upms-biz-nacos" />
       <extension name="coverage">
@@ -119,6 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpmsBizEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upms.biz.eureka.client.UpmsBizEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpmsBizNacosApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="upms-biz-nacos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upms.biz.UpmsBizNacosApplication" />
@@ -144,20 +181,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="upms-biz-eureka1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upms.biz.UpmsBizEurekaApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=biz1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="upms-biz-eureka2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upms.biz.UpmsBizEurekaApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=biz2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestConfig" />
       <item itemvalue="Application.TestConfig (1)" />
+      <item itemvalue="Application.TestConfig (2)" />
+      <item itemvalue="Spring Boot.UpmsBizEurekaClientApplication" />
       <item itemvalue="Spring Boot.peer1" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.UpmsBizConsulApplication" />
+      <item itemvalue="Spring Boot.upms-biz-eureka1" />
+      <item itemvalue="Spring Boot.upms-biz-eureka2" />
       <item itemvalue="Spring Boot.UpmsBizEurekaApplication (1)" />
       <item itemvalue="Spring Boot.UpmsBizNacosApplication (1)" />
       <item itemvalue="Spring Boot.peer2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestConfig" />
-        <item itemvalue="Application.TestConfig (1)" />
+        <item itemvalue="Application.TestConfig (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +229,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599552974676</updated>
-      <workItem from="1599552977301" duration="12038000" />
+      <workItem from="1599552977301" duration="14879000" />
+      <workItem from="1599577730502" duration="4463000" />
+      <workItem from="1599610758499" duration="223000" />
+      <workItem from="1599612016904" duration="13592000" />
     </task>
     <servers />
   </component>
@@ -183,7 +244,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

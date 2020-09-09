@@ -11,15 +11,14 @@ import java.util.Date;
 
 /**
  * <p>
- * InnoDB free: 7168 kB; (`province`) REFER `kylin_hdf/nation`(`id`); (`city`) REFE
+ * 
  * </p>
  *
  * @author Mht
  * @since 2020-09-08
  */
 @Data
-@Accessors(chain = true)
-public class UserDto extends Page {
+public class UserDto extends Page implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -58,6 +57,9 @@ public class UserDto extends Page {
      */
     private String password;
 
+    /**
+     * 头像
+     */
     private String userface;
 
     private String remark;
@@ -79,8 +81,7 @@ public class UserDto extends Page {
      */
     private Integer district;
 
-    private Date birth;
+    private Date createTime;
 
-
-
+    private Integer cardId;
 }
