@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15fd83cf-ab11-48b0-9675-5b8436dac115" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.0-bin" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.0-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hlx8G40zy3veeSwRIZKBVoOamg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hospital-eureka-geteway/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\hospital-zuoye\hospital-eureka-geteway\src\main\resources" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\hospital-zuoye\hospital-eureka-feign\src\main\java\com\hdf\hospitaleurekafeign" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\hospital-zuoye\hospital-eureka-client\src\main\java\com\hdf\hospitaleurekaclient" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\hospital-zuoye\hospital-eureka-client\src\main\resources" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\hospital-zuoye\common\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HospitalEurekaGetewayApplication">
+    <configuration name="HospitalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.hospital.HospitalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.hospitaleurekaclient.HospitalEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalEurekaFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital-eureka-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.hospitaleurekafeign.HospitalEurekaFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalEurekaGetewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital-eureka-geteway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.hospitaleurekageteway.HospitalEurekaGetewayApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=path_route" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.hospitaleurekaserver.HospitalEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HospitalApplication" />
+      <item itemvalue="Spring Boot.HospitalEurekaClientApplication" />
+      <item itemvalue="Spring Boot.HospitalEurekaFeignApplication" />
+      <item itemvalue="Spring Boot.HospitalEurekaGetewayApplication" />
+      <item itemvalue="Spring Boot.HospitalEurekaServerApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15fd83cf-ab11-48b0-9675-5b8436dac115" name="Default Changelist" comment="" />
+      <created>1600599318440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600599318440</updated>
+      <workItem from="1600599320844" duration="8488000" />
+      <workItem from="1600644206187" duration="2598000" />
+      <workItem from="1600649031379" duration="680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

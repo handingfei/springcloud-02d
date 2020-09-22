@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hospital-eureka-geteway" />
+        <module name="common" />
+        <module name="hospital-eureka-client" />
+        <module name="hospital-eureka-server" />
+        <module name="hospital-eureka-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hospital" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="hospital" options="-parameters" />
+      <module name="hospital-eureka-client" options="-parameters" />
+      <module name="hospital-eureka-feign" options="-parameters" />
+      <module name="hospital-eureka-geteway" options="-parameters" />
+      <module name="hospital-eureka-server" options="-parameters" />
+      <module name="hospital-zuoye" options="-parameters" />
+    </option>
+  </component>
+</project>

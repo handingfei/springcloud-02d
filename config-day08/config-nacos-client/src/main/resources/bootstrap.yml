@@ -1,0 +1,16 @@
+server:
+#  端口号
+  port: 8093
+spring:
+  application:
+    name: nacos-producer
+  cloud:
+    nacos:
+      config:
+#        config到8848 IP地址
+        server-addr: 127.0.0.1:8848
+        file-extension: properties
+        prefix: jxc_oauth
+  profiles:
+#    方法
+    active: dev

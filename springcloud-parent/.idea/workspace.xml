@@ -19,7 +19,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kylin_hdf@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kylin_hdf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="kylin_hdf: database" type="23e365eb:GenericImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kylin_hdf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="kylin_hdf: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="#1: schema" type="255a0c4b:GenericImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kylin_hdf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="kylin_hdf: database" type="23e365eb:GenericImplModel$Database" />
+        <item name="#1: schema" type="255a0c4b:GenericImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -43,31 +66,42 @@
   <component name="ProjectId" id="1hDkJ0dz5P8JuKHal4k4SwXN3x0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="exasol&#10;mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="0748e7d3-f1b1-4833-9568-7f039e55bff6" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/upms-biz-eureka/src/main/resources" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/upms-biz-jpa-eureka/src/main/java/com/hdf/upmsbizjpaeureka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upms-biz-eureka-fegin/src/main/java/com/hdf/upmsbizeurekafegin" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka\src\main\resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+      <recent name="com.hdf.upmsbizjpaeureka.entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hdf.dto" />
       <recent name="com.hdf.upms.biz.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka\src\main\resources" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka\src\main\java\com\hdf\upms\biz" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\eureka-server\src\main\resources" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-nacos\src\main\java\com\hdf\upms\biz" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-nacos\src\test\java\com\hdf\upmsbiznacos" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka-fegin\src\main\java\com\hdf\upmsbizeurekafegin" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\common\src\main\java\com.hdf\dto" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\common\src\main\java" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\eureka-server\src\main\java" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\common\src\main\java\com.hdf\vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.upms-biz-eureka2">
+  <component name="RunManager" selected="JUnit.UpmsBizJpaEurekaApplicationTests.list">
     <configuration name="TestConfig (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qpx.upms.biz.TestConfig" />
       <module name="upms-biz-nacos" />
@@ -122,9 +156,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpmsBizEurekaClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdf.upms.biz.eureka.client.UpmsBizEurekaClientApplication" />
+      <module name="upms-biz-eureka-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdf.upms.biz.eureka.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizJpaEurekaApplicationTests.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upms-biz-jpa-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdf.upmsbizjpaeureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdf.upmsbizjpaeureka" />
+      <option name="MAIN_CLASS_NAME" value="com.hdf.upmsbizjpaeureka.UpmsBizJpaEurekaApplicationTests" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizJpaEurekaApplicationTests.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upms-biz-jpa-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdf.upmsbizjpaeureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdf.upmsbizjpaeureka" />
+      <option name="MAIN_CLASS_NAME" value="com.hdf.upmsbizjpaeureka.UpmsBizJpaEurekaApplicationTests" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NpmsZuulEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="npms-zuul-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.npmszuuleureka.NpmsZuulEurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,6 +238,20 @@
     <configuration name="UpmsBizEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="upms-biz-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upms.biz.eureka.client.UpmsBizEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizEurekaFeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-eureka-fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizeurekafegin.UpmsBizEurekaFeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizJpaEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-jpa-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizjpaeureka.UpmsBizJpaEurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,6 +303,7 @@
       <item itemvalue="Application.TestConfig" />
       <item itemvalue="Application.TestConfig (1)" />
       <item itemvalue="Application.TestConfig (2)" />
+      <item itemvalue="Application.UpmsBizEurekaClientApplication" />
       <item itemvalue="Spring Boot.UpmsBizEurekaClientApplication" />
       <item itemvalue="Spring Boot.peer1" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -212,12 +313,35 @@
       <item itemvalue="Spring Boot.UpmsBizEurekaApplication (1)" />
       <item itemvalue="Spring Boot.UpmsBizNacosApplication (1)" />
       <item itemvalue="Spring Boot.peer2" />
+      <item itemvalue="Spring Boot.UpmsBizEurekaFeginApplication" />
+      <item itemvalue="Spring Boot.NpmsZuulEurekaApplication" />
+      <item itemvalue="Spring Boot.UpmsBizJpaEurekaApplication" />
+      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.list" />
+      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findById" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.list" />
+        <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findById" />
+        <item itemvalue="Application.UpmsBizEurekaClientApplication" />
         <item itemvalue="Application.TestConfig (2)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f0203454" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -232,7 +356,24 @@
       <workItem from="1599552977301" duration="14879000" />
       <workItem from="1599577730502" duration="4463000" />
       <workItem from="1599610758499" duration="223000" />
-      <workItem from="1599612016904" duration="13592000" />
+      <workItem from="1599612016904" duration="15967000" />
+      <workItem from="1599646961683" duration="4232000" />
+      <workItem from="1599652554303" duration="3483000" />
+      <workItem from="1599698452469" duration="4573000" />
+      <workItem from="1599708141877" duration="7910000" />
+      <workItem from="1599725756381" duration="4620000" />
+      <workItem from="1599782629349" duration="858000" />
+      <workItem from="1599784659380" duration="8928000" />
+      <workItem from="1600039722175" duration="596000" />
+      <workItem from="1600044015682" duration="207000" />
+      <workItem from="1600062049711" duration="518000" />
+      <workItem from="1600063372197" duration="2808000" />
+      <workItem from="1600217220684" duration="3515000" />
+      <workItem from="1600221299713" duration="9945000" />
+      <workItem from="1600239299968" duration="7852000" />
+      <workItem from="1600254524878" duration="6261000" />
+      <workItem from="1600686833488" duration="1686000" />
+      <workItem from="1600733516163" duration="16343000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.hdf.upms.biz.mapper")
+@MapperScan(basePackages = {"com.hdf.upms.biz.mapper"})
 public class UpmsBizEurekaApplication {
 
     public static void main(String[] args) {

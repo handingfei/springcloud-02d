@@ -13,6 +13,7 @@ import com.baomidou.mybatisplus.annotations.Version;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * <p>
@@ -87,6 +88,7 @@ public class User extends Model<User> {
      */
     private Integer district;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birth;
 
 

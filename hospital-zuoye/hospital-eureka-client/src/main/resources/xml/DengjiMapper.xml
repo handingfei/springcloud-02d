@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdf.hospitaleurekaclient.mapper.DengjiMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hdf.hospitaleurekaclient.entity.Dengji">
+        <id column="id" property="id" />
+        <result column="zyh" property="zyh" />
+        <result column="name" property="name" />
+        <result column="sex" property="sex" />
+        <result column="age" property="age" />
+        <result column="dz" property="dz" />
+        <result column="dh" property="dh" />
+        <result column="sfz" property="sfz" />
+        <result column="stadate" property="stadate" />
+        <result column="ks" property="ks" />
+        <result column="ys" property="ys" />
+        <result column="cw" property="cw" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, zyh, name, sex, age, dz, dh, sfz, stadate, ks, ys, cw
+    </sql>
+
+    <select id="dlist" resultType="com.hdf.hospitaleurekaclient.entity.Dengji">
+                    SELECT
+                d.*, k. NAME kname,
+                y. NAME yname,
+                c. NAME cname
+            FROM
+                dengji d
+            LEFT JOIN keshi k ON d.ks = k.id
+            LEFT JOIN chuangwei c ON c.id = d.cw
+            LEFT JOIN yisheng y ON y.id = d.ys
+            <if test="vo!=null">
+            <where>
+               <if test="vo.name!=null and vo.name!=''">
+                   d. NAME LIKE concat("%", #{vo.name}, "%")
+               </if>
+            </where>
+            </if>
+
+    </select>
+</mapper>

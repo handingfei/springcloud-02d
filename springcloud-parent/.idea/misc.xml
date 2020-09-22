@@ -10,7 +10,16 @@
         <option value="$PROJECT_DIR$/upms-biz-consul/pom.xml" />
         <option value="$PROJECT_DIR$/upms-biz-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/upms-biz-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/upms-biz-eureka-fegin/pom.xml" />
+        <option value="$PROJECT_DIR$/npms-zuul-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/upms-biz-jpa-eureka/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common1/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

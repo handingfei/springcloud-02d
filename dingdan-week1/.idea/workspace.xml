@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a0e856d-8c63-4a82-a88e-c160b0abc655" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.0-bin" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.0-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1hTo0iWImpbudL2ijVcR9n8MRiU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dingdan-provide/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\dingdan-provide\src\main\resources" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\user-provide\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.handingfei.dingdanprovide" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\dingdan-provide\src\main\resources" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\user-provide\src\main\resources\xml" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\user-provide\src\main\resources" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\user-provide\src\main\java\com\handingfei\userprovide" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\dingdan-week1\user-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.dd1">
+    <configuration name="TestConfig (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handingfei.dingdanprovide.TestConfig" />
+      <module name="dingdan-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handingfei.dingdanprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handingfei.userprovide.TestConfig" />
+      <module name="user-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handingfei.userprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvideApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handingfei.userprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.handingfei.userprovide" />
+      <option name="MAIN_CLASS_NAME" value="com.handingfei.userprovide.UserProvideApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvideApplicationTests.findUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handingfei.userprovide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.handingfei.userprovide" />
+      <option name="MAIN_CLASS_NAME" value="com.handingfei.userprovide.UserProvideApplicationTests" />
+      <option name="METHOD_NAME" value="findUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DingdanProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dingdan-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.dingdanprovide.DingdanProvideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-consul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userconsul.UserConsulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userprovide.UserProvideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userserver.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dd1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dingdan-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.dingdanprovide.DingdanProvideApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dd1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dd2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dingdan-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.dingdanprovide.DingdanProvideApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dd2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userserver.UserServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peer2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userserver.UserServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userprovide.UserProvideApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=user1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.handingfei.userprovide.UserProvideApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=user2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestConfig" />
+      <item itemvalue="Application.TestConfig (1)" />
+      <item itemvalue="JUnit.UserProvideApplicationTests.findUser" />
+      <item itemvalue="JUnit.UserProvideApplicationTests" />
+      <item itemvalue="Spring Boot.user1" />
+      <item itemvalue="Spring Boot.user2" />
+      <item itemvalue="Spring Boot.UserServerApplication" />
+      <item itemvalue="Spring Boot.peer1" />
+      <item itemvalue="Spring Boot.peer2" />
+      <item itemvalue="Spring Boot.UserConsulApplication" />
+      <item itemvalue="Spring Boot.UserProvideApplication" />
+      <item itemvalue="Spring Boot.DingdanProvideApplication" />
+      <item itemvalue="Spring Boot.dd1" />
+      <item itemvalue="Spring Boot.dd2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestConfig (1)" />
+        <item itemvalue="JUnit.UserProvideApplicationTests.findUser" />
+        <item itemvalue="JUnit.UserProvideApplicationTests" />
+        <item itemvalue="Application.TestConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a0e856d-8c63-4a82-a88e-c160b0abc655" name="Default Changelist" comment="" />
+      <created>1600044221380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600044221380</updated>
+      <workItem from="1600044224870" duration="8137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dingdan_week1$user2.ic" NAME="user2 Coverage Results" MODIFIED="1600048050171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

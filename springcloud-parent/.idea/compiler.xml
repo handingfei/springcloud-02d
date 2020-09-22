@@ -8,21 +8,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="upms-biz-consul" />
         <module name="eureka-server" />
+        <module name="upms-biz-jpa-eureka" />
         <module name="common" />
+        <module name="upms-biz-eureka-fegin" />
         <module name="upms-biz-eureka" />
         <module name="upms-biz-nacos" />
         <module name="upms-biz-eureka-client" />
+        <module name="npms-zuul-eureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="npms-zuul-eureka" options="-parameters" />
       <module name="springcloud-parent" options="-parameters" />
       <module name="upms-biz-consul" options="-parameters" />
       <module name="upms-biz-eureka" options="-parameters" />
       <module name="upms-biz-eureka-client" options="-parameters" />
+      <module name="upms-biz-eureka-fegin" options="-parameters" />
+      <module name="upms-biz-jpa-eureka" options="-parameters" />
       <module name="upms-biz-nacos" options="-parameters" />
     </option>
   </component>

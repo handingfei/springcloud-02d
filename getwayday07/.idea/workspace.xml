@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb610075-a2e9-45f1-a6d1-c517a679d78d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.0-bin" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.0-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hcDcQ99QMegbZmGOzPQKTTCUE6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upms-biz-server/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\getwayday07\upms-biz-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UpmzBizClientApplication">
+    <configuration name="UpmsBizFeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizfegin.UpmsBizFeginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizGetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-getway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizgetway.UpmsBizGetwayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizserver.UpmsBizServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmzBizClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upmz-biz-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmzbizclient.UpmzBizClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizserver.UpmsBizServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="peer2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizserver.UpmsBizServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UpmsBizFeginApplication" />
+      <item itemvalue="Spring Boot.UpmsBizGetwayApplication" />
+      <item itemvalue="Spring Boot.UpmsBizServerApplication" />
+      <item itemvalue="Spring Boot.UpmzBizClientApplication" />
+      <item itemvalue="Spring Boot.peer1" />
+      <item itemvalue="Spring Boot.peer2" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb610075-a2e9-45f1-a6d1-c517a679d78d" name="Default Changelist" comment="" />
+      <created>1600301565276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600301565276</updated>
+      <workItem from="1600301568391" duration="2582000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/upms-biz-getway/src/main/java/com/hdf/upmsbizgetway/UpmsBizGetwayApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

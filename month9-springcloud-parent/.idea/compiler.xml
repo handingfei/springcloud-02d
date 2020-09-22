@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="upms-gateway-eureka" />
+        <module name="upms-biz-eureka" />
+        <module name="upms-zuul-eureka" />
+        <module name="upms-biz-server" />
+        <module name="config-server" />
+        <module name="config-client" />
+        <module name="config-nacos-client" />
+        <module name="upms-biz-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="upmz-biz-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-nacos-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="upms-biz-eureka" options="-parameters" />
+      <module name="upms-biz-feign" options="-parameters" />
+      <module name="upms-biz-server" options="-parameters" />
+      <module name="upms-gateway-eureka" options="-parameters" />
+      <module name="upms-zuul-eureka" options="-parameters" />
+      <module name="upmz-biz-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
