@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdf.carrclient.mapper.TCarrMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hdf.carrclient.entity.TCarr">
+        <id column="id" property="id" />
+        <result column="num" property="num" />
+        <result column="pp" property="pp" />
+        <result column="number" property="number" />
+        <result column="hao" property="hao" />
+        <result column="createdate" property="createdate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, num, pp, number, hao, createdate
+    </sql>
+
+    <resultMap id="base" type="com.hdf.carrclient.entity.TCarr">
+        <id column="id" property="id" />
+        <result column="num" property="num" />
+        <result column="pp" property="pp" />
+        <result column="number" property="number" />
+        <result column="hao" property="hao" />
+        <result column="createdate" property="createdate" />
+
+        <result column="tname" property="tname" />
+        <result column="cname" property="cicnamed" />
+    </resultMap>
+
+
+    <select id="carlist" resultType="com.hdf.carrclient.entity.TCarr">
+       select * from t_carr
+    </select>
+
+</mapper>

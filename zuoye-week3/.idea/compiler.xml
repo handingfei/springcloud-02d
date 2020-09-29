@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zuoye-geteway" />
+        <module name="common" />
+        <module name="zuoye-server" />
+        <module name="zuoye-feign" />
+        <module name="zuoye-jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zuoye-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="zuoye-client" options="-parameters" />
+      <module name="zuoye-feign" options="-parameters" />
+      <module name="zuoye-geteway" options="-parameters" />
+      <module name="zuoye-jpa" options="-parameters" />
+      <module name="zuoye-server" options="-parameters" />
+      <module name="zuoye-week3" options="-parameters" />
+    </option>
+  </component>
+</project>

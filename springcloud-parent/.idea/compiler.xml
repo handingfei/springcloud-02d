@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="upms-biz-consul" />
         <module name="eureka-server" />
-        <module name="upms-biz-jpa-eureka" />
+        <module name="upms-biz-mongodb" />
         <module name="common" />
         <module name="upms-biz-eureka-fegin" />
+        <module name="upms-biz-jpa-eureka" />
         <module name="upms-biz-eureka" />
         <module name="upms-biz-nacos" />
         <module name="upms-biz-eureka-client" />
@@ -32,6 +33,7 @@
       <module name="upms-biz-eureka-client" options="-parameters" />
       <module name="upms-biz-eureka-fegin" options="-parameters" />
       <module name="upms-biz-jpa-eureka" options="-parameters" />
+      <module name="upms-biz-mongodb" options="-parameters" />
       <module name="upms-biz-nacos" options="-parameters" />
     </option>
   </component>

@@ -76,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/upms-biz-jpa-eureka/src/main/java/com/hdf/upmsbizjpaeureka" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/upms-biz-eureka-fegin/src/main/java/com/hdf/upmsbizeurekafegin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upms-biz-mongodb/src/main/java/com/hdf/upmsbizmongodb/config" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -97,11 +97,11 @@
       <recent name="com.hdf.upms.biz.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-mongodb\src\main\java\com\hdf\upmsbizmongodb\config" />
+      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-jpa-eureka\src\main\java\com\hdf\upmsbizjpaeureka" />
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\upms-biz-eureka-fegin\src\main\java\com\hdf\upmsbizeurekafegin" />
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\common\src\main\java\com.hdf\dto" />
       <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\common\src\main\java" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\eureka-server\src\main\java" />
-      <recent name="F:\study\BigDataSenior5SpringCloud\code\springcloud-parent\common\src\main\java\com.hdf\vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,26 +116,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UpmsBizJpaEurekaApplicationTests.list">
+  <component name="RunManager" selected="JUnit.UpmsBizMongodbApplicationTests.contextLoads">
     <configuration name="TestConfig (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qpx.upms.biz.TestConfig" />
       <module name="upms-biz-nacos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qpx.upms.biz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestConfig (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hdf.upms.biz.TestConfig" />
-      <module name="upms-biz-eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hdf.upms.biz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,6 +172,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpmsBizJpaEurekaApplicationTests.findLikeName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upms-biz-jpa-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdf.upmsbizjpaeureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdf.upmsbizjpaeureka" />
+      <option name="MAIN_CLASS_NAME" value="com.hdf.upmsbizjpaeureka.UpmsBizJpaEurekaApplicationTests" />
+      <option name="METHOD_NAME" value="findLikeName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpmsBizJpaEurekaApplicationTests.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="upms-biz-jpa-eureka" />
       <extension name="coverage">
@@ -196,6 +199,22 @@
       <option name="PACKAGE_NAME" value="com.hdf.upmsbizjpaeureka" />
       <option name="MAIN_CLASS_NAME" value="com.hdf.upmsbizjpaeureka.UpmsBizJpaEurekaApplicationTests" />
       <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsBizMongodbApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upms-biz-mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdf.upmsbizmongodb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hdf.upmsbizmongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.hdf.upmsbizmongodb.UpmsBizMongodbApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,6 +275,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpmsBizMongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upms-biz-mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upmsbizmongodb.UpmsBizMongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpmsBizNacosApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="upms-biz-nacos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdf.upms.biz.UpmsBizNacosApplication" />
@@ -302,8 +328,11 @@
     <list>
       <item itemvalue="Application.TestConfig" />
       <item itemvalue="Application.TestConfig (1)" />
-      <item itemvalue="Application.TestConfig (2)" />
       <item itemvalue="Application.UpmsBizEurekaClientApplication" />
+      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.list" />
+      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findById" />
+      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findLikeName" />
+      <item itemvalue="JUnit.UpmsBizMongodbApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.UpmsBizEurekaClientApplication" />
       <item itemvalue="Spring Boot.peer1" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -316,15 +345,15 @@
       <item itemvalue="Spring Boot.UpmsBizEurekaFeginApplication" />
       <item itemvalue="Spring Boot.NpmsZuulEurekaApplication" />
       <item itemvalue="Spring Boot.UpmsBizJpaEurekaApplication" />
-      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.list" />
-      <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findById" />
+      <item itemvalue="Spring Boot.UpmsBizMongodbApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpmsBizMongodbApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findLikeName" />
         <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.list" />
         <item itemvalue="JUnit.UpmsBizJpaEurekaApplicationTests.findById" />
         <item itemvalue="Application.UpmsBizEurekaClientApplication" />
-        <item itemvalue="Application.TestConfig (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +402,13 @@
       <workItem from="1600239299968" duration="7852000" />
       <workItem from="1600254524878" duration="6261000" />
       <workItem from="1600686833488" duration="1686000" />
-      <workItem from="1600733516163" duration="16343000" />
+      <workItem from="1600733516163" duration="19249000" />
+      <workItem from="1600820041443" duration="5895000" />
+      <workItem from="1600926589895" duration="39000" />
+      <workItem from="1600949192638" duration="3585000" />
+      <workItem from="1600992584220" duration="7017000" />
+      <workItem from="1601204586876" duration="1108000" />
+      <workItem from="1601250559191" duration="310000" />
     </task>
     <servers />
   </component>

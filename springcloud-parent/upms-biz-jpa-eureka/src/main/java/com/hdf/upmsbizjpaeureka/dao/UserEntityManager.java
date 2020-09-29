@@ -29,4 +29,11 @@ public class UserEntityManager {
     }
 
 
+    public List<UserEntity> findLikeName(String name){
+        Query query = entityManager.createQuery("From UserEntity u where u.name like :name");
+        query.setParameter("name", "%" + name + "%");
+
+        return query.getResultList();
+    }
+
 }

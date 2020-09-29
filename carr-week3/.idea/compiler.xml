@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="carr-server" />
+        <module name="carr-gateway" />
+        <module name="carr-client" />
+        <module name="carr_jpa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="carr-jpa-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="carr-client" options="-parameters" />
+      <module name="carr-gateway" options="-parameters" />
+      <module name="carr-jpa-client" options="-parameters" />
+      <module name="carr-server" options="-parameters" />
+      <module name="carr_jpa" options="-parameters" />
+      <module name="common" options="-parameters" />
+    </option>
+  </component>
+</project>

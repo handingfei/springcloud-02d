@@ -33,7 +33,12 @@ class UpmsBizJpaEurekaApplicationTests {
         log.info(JSON.toJSONString(byId)+"+++++++++++++++++++++++++++++++++++++++++++++++++++");
     }
 
+    @Test
+    void findLikeName(){
+        List<UserEntity> zs = this.userEntityManager.findLikeName("张三");
 
+        log.info(JSON.toJSONString(zs));
+    }
 
 
 
