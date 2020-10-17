@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway" />
+        <module name="eureka-server" />
+        <module name="common" />
+        <module name="shopping-cat-service" />
+        <module name="shopping-user-service" />
+        <module name="shopping-item-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="shopping-cat-service" options="-parameters" />
+      <module name="shopping-item-service" options="-parameters" />
+      <module name="shopping-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

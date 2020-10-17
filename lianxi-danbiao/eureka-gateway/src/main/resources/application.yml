@@ -1,0 +1,25 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka
+server:
+  port: 9999
+spring:
+  application:
+    name: eureka-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: shoping-cat-serice
+          uri: lb://EUREKA-JPA
+          predicates:
+           - Path=/gateway/**
+          filters:
+          - StripPrefix=1
+  #静态资源配置,用于图片
+upload:
+  path: D:\pic\
+  url: http://localhost:9999/img/
+
+
+

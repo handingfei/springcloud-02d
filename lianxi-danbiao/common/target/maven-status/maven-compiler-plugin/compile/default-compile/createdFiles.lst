@@ -1,0 +1,4 @@
+com\hdf\dto\Page.class
+com\hdf\dto\ManytooneEntityDto.class
+com\hdf\dto\LianxiEntityDto.class
+com\hdf\vo\ResultEntity.class

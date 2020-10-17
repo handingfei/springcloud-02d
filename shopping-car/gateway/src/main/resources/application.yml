@@ -1,0 +1,36 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka
+server:
+  port: 9999
+spring:
+  application:
+    name: shoping-cat-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: shoping-cat-serice
+          uri: lb://SHOPPING-CAT-SERVICE
+          predicates:
+           - Path=/cat/**
+          filters:
+          - StripPrefix=1
+        - id: path_route_ribbon
+          uri: lb://user-eureka
+          predicates:
+            - Path=/user/**
+          filters:
+            - StripPrefix=1
+        - id: jpa
+          uri: lb://UPMS-BIZ-JPA-EUREKA
+          predicates:
+            - Path=/jpa/**
+          filters:
+            - StripPrefix=1
+        - id: mongodb
+          uri: lb://UPMS-BIZ-MONGODB-EUREKA
+          predicates:
+            - Path=/mongodb/**
+          filters:
+            - StripPrefix=1

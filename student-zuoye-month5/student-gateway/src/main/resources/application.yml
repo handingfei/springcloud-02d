@@ -1,0 +1,19 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka
+server:
+  port: 9999
+spring:
+  application:
+    name: student-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: path_route_feign
+          uri: lb://student-client
+          predicates:
+            - Path=/gateway/**
+          filters:
+            - StripPrefix=1
+
